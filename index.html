@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Find trusted dentists near you. Browse our slider of professional dental profiles and choose the right expert for your smile."
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      rel="icon"
+      href="assets/icons/Frame Logo Icon.svg"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/mediaQueries.css" />
+    <title>Interactive Form</title>
+  </head>
+  <body>
+    <main>
+      <div class="login-form">
+        <h3>Create your Free Account</h3>
+        <form action="">
+          <div class="input-fields">
+            <div class="input-field">
+              <label for="user-name">Full Name</label>
+              <input
+                type="text"
+                name="user-name"
+                placeholder="Enter your Fulll Name here"
+              />
+              <span class="error-message"></span>
+            </div>
+            <div class="input-field">
+              <label for="email">Email</label>
+              <input
+                type="text"
+                name="email"
+                placeholder="Enter your Email here"
+              />
+              <span class="error-message"></span>
+            </div>
+            <div class="input-field">
+              <label for="password">Password</label>
+              <input
+                type="password"
+                name="password"
+                placeholder="Enter your Password here"
+              />
+              <span class="error-message"></span>
+            </div>
+          </div>
+          <button class="create-account-button" type="submit">Create Account</button>
+          <h4>Already have a account? <a href="#">Log in</a></h4>
+          <p class="login-divider">- OR -</p>
+          <div class="login-options">
+            <div class="login-option">
+              <button>
+                <img src="assets/images/Google.png" alt="google logo" />
+                <p>Sing up with Google</p>
+              </button>
+            </div>
+            <div class="login-option">
+              <button>
+                <img src="assets/images/GitHub.png" alt="github logo" />
+                <p>Sing up with GitHub</p>
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </main>
+    <div id="popup" class="popup">Account created successfully!</div>
+    <script src="js/main.js" type="module"></script>
+  </body>
+</html>

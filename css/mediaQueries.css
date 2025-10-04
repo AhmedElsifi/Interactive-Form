@@ -1,0 +1,94 @@
+@media (max-width: 480px) {
+  main {
+    width: 100%;
+    background-image: none;
+    height: auto;
+    border-radius: 0px;
+    box-shadow: none;
+  }
+
+  .login-form {
+    width: 100%;
+    height: auto;
+    padding: 40px 20px;
+    float: none;
+    border-radius: 0px;
+  }
+
+  .input-field input {
+    width: 100%;
+    padding: 14px 20px;
+  }
+
+  form .create-account-button {
+    width: 90%;
+    font-size: 16px;
+  }
+  .login-options {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .login-option button {
+    width: 100%;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  main {
+    width: 90%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .login-form {
+    height: auto;
+    width: 100%;
+    padding: 60px 40px;
+    float:none;
+  }
+
+  .input-field input {
+    width: 100%;
+  }
+
+  .login-options {
+    flex-wrap: wrap;
+    justify-content:center ;
+    gap: 10px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  main {
+    width: 90%;
+    height: auto;
+  }
+
+  .login-form {
+    width: 60%;
+    padding: 70px;
+  }
+
+  .input-field input {
+    width: 100%;
+  }
+
+  .login-options {
+    justify-content: space-between;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1320px) {
+  main {
+    width: 90%;
+  }
+
+ .login-form {
+  width: 55%;
+  padding: 80px;
+  }
+
+  .input-field input {
+    width: 100%;
+  }
+}
