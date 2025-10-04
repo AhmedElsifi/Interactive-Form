@@ -7,7 +7,7 @@ const errorMessages = form.querySelectorAll(".error-message");
 const namePattern = /^[a-zA-Z][a-zA-Z0-9_ ]{2,15}$/;
 const emailPattern = /^[a-zA-Z0-9\._]+@[a-zA-Z0-9]+\.(com|net|org|edu)$/;
 const passwordPattern =
-  /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&#])[A-Za-z\d@$!%*?&#]{8,}$/;
+  /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&#\._-])[A-Za-z\d@$!%*?&#-_\.]{8,}$/;
 
 function validateName() {
   const value = nameInput.value.trim();
