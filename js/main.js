@@ -5,7 +5,7 @@ const passwordInput = form.querySelector("input[name='password']");
 const errorMessages = form.querySelectorAll(".error-message");
 
 const namePattern = /^[a-zA-Z][a-zA-Z0-9_ ]{2,15}$/;
-const emailPattern = /^[a-zA-Z0-9]+@[a-zA-Z0-9]+\.(com|net|org|edu)$/;
+const emailPattern = /^[a-zA-Z0-9\._]+@[a-zA-Z0-9]+\.(com|net|org|edu)$/;
 const passwordPattern =
   /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&#])[A-Za-z\d@$!%*?&#]{8,}$/;
 

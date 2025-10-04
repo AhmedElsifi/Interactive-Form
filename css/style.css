@@ -224,14 +224,28 @@ form h4 a {
   position: fixed;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  background: linear-gradient(-45deg, #AE75DA, #9112BC);
-  color: #000;
-  padding: 20px 40px;
-  border-radius: 12px;
-  font-size: 20px;
+  transform: translate(-50%, -50%) scale(1);
+  background: linear-gradient(135deg, #9112BC, #AE75DA);
+  color: #fff;
+  padding: 24px 48px;
+  border-radius: 16px;
+  font-size: 22px;
   font-weight: 600;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  text-align: center;
+  letter-spacing: 0.5px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
   display: none;
   z-index: 1000;
+  animation: fadeInScale 0.4s ease forwards;
+}
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
 }
